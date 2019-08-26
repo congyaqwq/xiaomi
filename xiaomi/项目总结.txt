@@ -1,0 +1,19 @@
+项目名称：小米有品
+
+1.固定一个页面的宽高就可以起到浏览器缩放时比例不变
+2.使用定位设置bottom为负数加上overflow:hidden可以达到图片隐藏的效果
+3.设置渐变：
+	border-bottom: 3px solid transparent;//透明
+	border-image: -webkit-linear-gradient(orange, red) 20 20;//百分比，上左下右，与margin，padding类似
+4.ico制作www.bitbug.net
+	使用：<link rel="shortcut icon" type="text/css" href="images/youpin.ico">
+5.list-type-style：li标签前面的圆点样式
+6.fieldset可以将文字两边加上下划线，具体做法，将其他方向边框隐藏即可，只能对fieldset本身进行操作，在legend中写文字
+
+
+
+
+问题：
+	右边框放大缩小时位置会改变
+	动态效果没有完成，仅实现了登录以及下载app的跳转
+	许多链接没有鼠标悬停变成pointer

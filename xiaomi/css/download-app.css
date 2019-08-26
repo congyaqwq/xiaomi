@@ -1,0 +1,239 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.body{
+	width: 1349px;
+	position: relative;
+	margin: 0 auto;
+	font-size: 14px;
+}
+nav{
+	height: 48px;
+	line-height: 48px;
+	background-color: #333333;
+	color: #eee;
+}
+nav div{
+	display: inline-block;
+	z-index:100;
+}
+.nav-character .hidden:hover .hidden-box{
+	display: block;
+}
+.nav-character li{
+	display: block;
+	height: 35px;
+	line-height: 35px;
+}
+.nav-character .hidden .hidden-box li:hover{
+	background-color: #845F3F;
+	color: #eee;
+}
+.nav-character .hidden .hidden-box{
+	text-align: center;
+	position: absolute;
+	background-color: white;
+	width: 150px;
+	height: 70px;
+	color: #777;
+	box-shadow: -2px 0px 3px #aaa,1px 0px 3px #aaa;
+	display: none;
+
+}
+nav .nav-character{
+	position: relative;
+	width: 45%;
+	margin: auto;
+	float: right;
+	box-sizing: border-box;
+}
+nav img{
+	width: 24px;
+	position: relative;
+	top: 7px;
+	left: 10px;
+}
+nav span,nav a,nav i{
+	text-decoration: none;
+	color: #ddd;
+	display: inline-block;
+	margin-left: 10px;
+}
+nav span:hover,nav a:hover,nav i:hover{
+	color: white;
+
+}
+
+.nav::after{
+	clear: both;
+	display: hidden;
+}
+
+.body .fixed-item{
+	position: fixed;
+	left: 1270px;
+	top: 200px;
+
+}
+.body .fixed-item{
+	position: fixed;
+	left: 1270px;
+	top: 200px;
+
+}
+.body .fixed-item li{
+	font-size: 12px;
+	/*padding: 18px auto;*/
+	text-align: center;
+	display: block;
+	width: 71px;
+	height: 71px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #e7e7e7;
+	/*border: 1px solid #ddd;*/
+}
+.body .fixed-item img{
+	margin-top: 10px;
+	width: 30px;
+}
+
+.header-top{
+	position: relative;
+	width: 80%;
+	height: 52px;
+	font-size: 14px;
+	margin: auto;
+	margin-top: 22px;
+	box-sizing: border-box;
+	vertical-align: bottom;
+}
+.header-top .search,.header-top i{
+	display: inline-block;
+}
+.header-top img{
+	width: 123px;
+}
+.header-top a{
+	position: relative;
+	bottom: 10px;
+	margin-left: 140px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #777;
+}
+.header-top a:hover{
+	color: #B68962;
+}
+.header-top .search{
+	position: relative;
+	bottom: 7px;
+	width: 300px;
+	margin-left: 400px;
+	border-bottom: 1px solid #ddd;
+}
+.header-top i{
+	color: #222;
+	font-weight: lighter;
+}
+.header-top .fa-shopping-cart{
+	position: relative;
+	bottom: 7px;
+}
+.header-top .search input{
+	color: #ddd;
+	margin: 5px 8px;
+	border:none;
+}
+
+
+.main>img{
+	width: 100%;
+	height: 540px;
+	position: absolute;
+	z-index: -1;
+}
+.main .phone img{
+	width: 455px;
+	height: 542px;
+	position: relative;
+	top: 70px;
+	left: 170px;
+}
+.main .info-list{
+	font-family: Microsoft Yahei;
+	font-size: 40px;
+	color: #333;
+	font-weight: 400;
+	position: absolute;
+	right: 225px;
+	top: 190px;
+	
+}
+.main .info-list .list-item{
+	display: inline-block;
+	margin: 20px 40px 0px 0px;
+	text-align: center;
+/*	list-style-type: none;
+	list-style-position:outside;*/
+}
+.main .info-list .list-item{
+	color: #fd862f;
+}
+.main .info-list .list-item span{
+	font-size: 16px;
+	margin: 0px;
+
+}
+.main .info-list .list-item p{
+	font-size: 18px;
+	color: #666;
+}
+.main .code{
+	display: block;
+	position: absolute;
+	right: 300px;
+	top: 390px;
+	padding: 5px;
+	background-color: white;
+
+}
+.main .code img{
+	width: 152px;
+	height: 152px;
+}
+
+
+
+
+
+
+.footer-border{
+	width: 100%;
+	height: 136px;
+	border-top: 1px solid #ddd;
+	margin-top: 60px;
+	box-sizing: border-box;
+}
+.footer{
+	position: relative;
+	width: 80%;
+	margin: 40px auto 40px;
+
+}
+.footer>img{
+	width: 123px;
+}
+.honesty-logo img{
+	width: 110px;
+	position: absolute;
+	left: 910px;
+	bottom: 30px;
+
+}
+.footer div{
+	margin: 0px 200px;
+	color:#777;
+	font-size: 12px;
+	display: inline-block;
+}
